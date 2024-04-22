@@ -1,39 +1,19 @@
-import { defineConfig } from 'vitepress'
+---
+tags: ["vitepress"]
+---
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "AKC Bitácora",
-  description: "Lo que aprendí hoy",
-  
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    logo: '/assets/reshot-icon-code-V24MA9F78Z.svg',
+# 20240412: Vitepress favicon
 
-    search: {
-      provider: 'local'
-    },
+<TagLinks />
 
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Notas', link: '/notas/' }
-    ],
+- Tengo un site vitepress pero no tiene favicon
+- [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/)
+	- A partir de un png, puede generar el código html las imágenes y archivos necesarios para setear correctamente el favicon de modo compatible con múltiples navegadores.
+- Descargo el zip y lo descomprimo en `public/assets/favicons/`
+- Edito `.vitepress/config.ts`
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  },
-
-  head: [
+```ts
+head: [
     ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png"}],
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png"}],
     ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png"}],
@@ -43,6 +23,6 @@ export default defineConfig({
     ['meta', { name: "msapplication-TileColor", content: "#5bbad5"}],
     ['meta', { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml"}],
     ['meta', { name: "theme-color", content: "#ffffff"}],
-    
-  ],
-})
+    //...
+],
+```

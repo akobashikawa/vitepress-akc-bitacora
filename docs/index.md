@@ -6,13 +6,15 @@ hero:
   name: "AKC Bitácora"
   text: "Lo que aprendí hoy"
   tagline: "Programación y más"
+  image:
+    src: /assets/webdev-logo.png
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Notas
+      link: /notas/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Tags
+      link: /tags
 
 features:
   - title: Feature A
