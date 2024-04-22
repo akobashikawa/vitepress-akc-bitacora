@@ -1,0 +1,16 @@
+{
+  "name": "vitepress-akc-bitacora",
+  "version": "1.0.0",
+  "description": "Bitacora de aprendizaje",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "Antonio Kobashikawa Carrasco",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.1.3",
+    "vue": "^3.4.24"
+  }
+}
