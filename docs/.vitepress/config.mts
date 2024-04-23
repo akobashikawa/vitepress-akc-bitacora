@@ -3,8 +3,10 @@ import { defineConfig, createContentLoader } from 'vitepress';
 import fs from "fs";
 import path from "path";
 
+import { withMermaid } from "vitepress-plugin-mermaid";
+
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   lang: 'es-ES',
   title: "AKC Bitácora",
   description: "Lo que aprendí hoy",
@@ -23,7 +25,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/assets/reshot-icon-code-V24MA9F78Z.svg',
+    logo: '/assets/notes-svgrepo-com.svg',
 
     lastUpdated: {
       text: 'Última actualización',
@@ -44,11 +46,12 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Posts', link: '/posts/' }
+      { text: 'Posts', link: '/posts/' },
+      { text: 'Acerca', link: '/about' },
     ],
 
     sidebar: [
-      getSideBar('posts', 'Posts', true),
+      getSideBar('posts', 'Posts', true, true),
     ],
 
     outline: {
@@ -56,7 +59,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-akc-bitacora' }
     ]
   },
 
@@ -78,9 +81,17 @@ export default defineConfig({
       //...
     ],
   },
+
+  mermaid: {
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+  },
+  // optionally set additional config for plugin itself with MermaidPluginConfig
+  mermaidPlugin: {
+    class: "mermaid my-class", // set additional css classes for parent container 
+  },
 });
 
-function getSideBar(folder, title, desc) {
+function getSideBar(folder, title, desc, collapsed) {
   const extension = [".md"];
 
   let files = fs
@@ -104,5 +115,5 @@ function getSideBar(folder, title, desc) {
 
   const link = `/${folder}/`;
 
-  return { text: title, link, items};
+  return { text: title, link, collapsed, items};
 }

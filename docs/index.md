@@ -7,21 +7,21 @@ hero:
   text: "Lo que aprendí hoy"
   tagline: "Programación y más"
   image:
-    src: /assets/webdev-logo.png
+    src: /assets/notes-svgrepo-com.svg
   actions:
     - theme: brand
-      text: Notas
-      link: /notas/
+      text: Posts
+      link: /posts/
     - theme: alt
       text: Tags
       link: /tags
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Programar
+    details: Programar es establecer por adelantado un conjunto de acciones o la forma en que se realizará un conjunto de acciones
+  - title: Contexto
+    details: Un contexto es un conjunto de consideraciones que tenemos en cuenta al tratar sobre algo
+  - title: Abstraer
+    details: Abstraer es usar un conjunto de consideraciones más reducido
 ---
 
