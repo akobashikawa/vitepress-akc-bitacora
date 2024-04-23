@@ -4,7 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
-import TagList from '../components/TagsList.vue'
+import TagsList from '../components/TagsList.vue'
 import TagsLinks from '../components/TagsLinks.vue'
 
 export default {
@@ -15,7 +15,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('TagList', TagList)
+    app.component('TagsList', TagsList)
     app.component('TagsLinks', TagsLinks)
   }
 } satisfies Theme

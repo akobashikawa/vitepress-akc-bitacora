@@ -1,6 +1,10 @@
 ---
+date: 2023/02/26
+title: Cómo usar el script de Bootstrap en Angular
 tags: ["javascript", "angular", "bootstrap"]
 ---
+Cómo usar el script de Bootstrap en Angular
+-
 
 # 20230226: Cómo usar el script de Bootstrap en Angular
 

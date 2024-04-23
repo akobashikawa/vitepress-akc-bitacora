@@ -5,6 +5,7 @@ import path from "path";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'es-ES',
   title: "AKC Bitácora",
   description: "Lo que aprendí hoy",
   lastUpdated: true,
@@ -42,12 +43,16 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Notas', link: '/notas/' }
+      { text: 'Posts', link: '/posts/' }
     ],
 
     sidebar: [
-      getSideBar('notas', 'Notas', true),
+      getSideBar('posts', 'Posts', true),
     ],
+
+    outline: {
+      label: 'En esta página'
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
