@@ -9,6 +9,7 @@ export default defineConfig({
   title: "AKC Bitácora",
   description: "Lo que aprendí hoy",
   lastUpdated: true,
+  ignoreDeadLinks: true,
 
   transformHtml: (code, id, {pageData}) => {
     // console.log({code, id, pageData});
