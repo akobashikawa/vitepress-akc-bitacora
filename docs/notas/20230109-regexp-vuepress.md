@@ -4,7 +4,7 @@ tags: ["javascript", "vuepress"]
 
 # 20230109: Regexp, Vuepress
 
-<TagLinks />
+<TagsLinks />
 
 ## Javascript: regexp 101
 

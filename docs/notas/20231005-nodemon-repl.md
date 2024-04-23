@@ -4,7 +4,7 @@ tags: ["express", "node", "nodemon"]
 
 # 20231005: Nodemon REPL
 
-<TagLinks />
+<TagsLinks />
 
 - Supongamos un REPL que ejecutamos:
 	- `node my-repl.js`

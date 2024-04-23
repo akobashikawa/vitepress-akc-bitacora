@@ -4,7 +4,7 @@ tags: ["windows", "tools"]
 
 # 20240321: Windows Powertoys Hotkeys
 
-<TagLinks />
+<TagsLinks />
 
 ## Hotkeys
 

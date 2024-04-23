@@ -4,7 +4,7 @@ tags: ["programming", "tips"]
 
 # 20230714: Tip para comentar/descomentar fácilmente un bloque de código
 
-<TagLinks />
+<TagsLinks />
 
 Expondré esta idea para javascript, pero funciona del mismo modo en lenguajes similares, como java y C.
 

@@ -4,7 +4,7 @@ tags: ["lisp"]
 
 # 20230308: Primeros pasos con Lisp
 
-<TagLinks />
+<TagsLinks />
 
 - sudo apt install clisp
 - clisp --version

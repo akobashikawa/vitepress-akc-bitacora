@@ -4,7 +4,7 @@ tags: ["vue", "bootstrap"]
 
 # 20230321: Bootstrap Toast con Vue
 
-<TagLinks />
+<TagsLinks />
 
 - Implementando un toast con bootstrap en vue.
 

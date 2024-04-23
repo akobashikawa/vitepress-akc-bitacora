@@ -3,7 +3,7 @@ tags: ["patterns", "java"]
 ---
 # 20240122: Strategy: Composición en vez de Herencia
 
-<TagLinks />
+<TagsLinks />
 
 - Cuando se aplica herencia, las cosas en la clase padre afectan a todos los hijos.
 	- Si se agrega algo en el padre, aquellos que no lo requieran deben sobrescribirlo.

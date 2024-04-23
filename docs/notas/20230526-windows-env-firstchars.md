@@ -4,7 +4,7 @@ tags: ["windows", "console", "tips", "howto"]
 
 # 20230526: En Windows, ¿Cómo obtener los primeros n caracteres de una variable de entorno?
 
-<TagLinks />
+<TagsLinks />
 
 - Empleando el sufijo `:~0,n`
 - Ejemplos:

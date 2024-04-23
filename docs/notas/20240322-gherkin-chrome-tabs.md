@@ -4,7 +4,7 @@ tags: ["bdd", "tools"]
 
 # 20240322: Gherkin, Chrome Tabs
 
-<TagLinks />
+<TagsLinks />
 
 ## Gherkin
 

@@ -4,7 +4,7 @@ tags: ["clojure", "lisp"]
 
 # 20230318: Clojure Tadam
 
-<TagLinks />
+<TagsLinks />
 
 - **Tadam** es un framework simple para desarrollar web con *Clojure*
 - **Clojure** es un lenguaje de programación funcional, dialecto de *Lisp*, que funciona apoyado en la *JVM*

@@ -4,7 +4,7 @@ tags: ["github", "git"]
 
 # 20230407: Github "Remote Host Identification Has Changed"
 
-<TagLinks />
+<TagsLinks />
 
 - Al intentar una operación con github, devuelve un mensaje que incluye: WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 - Al parecer, hacia marzo 24, github habría cambiado sus claves.

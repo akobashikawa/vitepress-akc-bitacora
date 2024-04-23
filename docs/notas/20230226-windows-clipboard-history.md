@@ -4,7 +4,7 @@ tags: ["windows", "tools"]
 
 # 20230226: Windows Clipboard History
 
-<TagLinks />
+<TagsLinks />
 
 ![](20230226-windows-clipboard-history.png)
 

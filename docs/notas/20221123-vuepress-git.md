@@ -4,7 +4,7 @@ tags: ["vuepress", "git", "devops"]
 
 # 20221123: Vuepress, Git
 
-<TagLinks />
+<TagsLinks />
 
 ## VuePress: netlify
 

@@ -3,7 +3,7 @@ tags: ["windows", "vscode"]
 ---
 # 20240122: Agregar link contextual Abrir VSCode aquí
 
-<TagLinks />
+<TagsLinks />
 
 - [Right click on Windows folder and open with Visual Studio Code | thisDaveJ](https://thisdavej.com/right-click-on-windows-folder-and-open-with-visual-studio-code/)
 - Normalmente, agregar el link contextual que permita abrir una carpeta en vscode se puede lograr corriendo nuevamente el instalador.

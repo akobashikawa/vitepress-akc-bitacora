@@ -4,7 +4,7 @@ tags: ["bash"]
 
 # 20230328: Bash shebang
 
-<TagLinks />
+<TagsLinks />
 
 - El **shebang** se coloca en la primera línea del script bash
 - El recomendado para mayor portabilidad es **`#!/usr/bin/env bash`**

@@ -4,7 +4,7 @@ tags: ["github", "vuepress"]
 
 # 20230120: Github Actions
 
-<TagLinks />
+<TagsLinks />
 
 ## Github actions: Desplegando Vuepress
 

@@ -4,7 +4,7 @@ tags: ["vuepress", "git"]
 
 # 20221219: Vuepress, Git
 
-<TagLinks />
+<TagsLinks />
 
 ## VuePress: Crear site
 

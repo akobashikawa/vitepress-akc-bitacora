@@ -4,7 +4,7 @@ tags: ["programming", "batch", "windows"]
 
 # 20231003: Windows: Referencia rápida para programar batch scripts
 
-<TagLinks />
+<TagsLinks />
 
 - `cmd`
 	- abre la consola de comandos

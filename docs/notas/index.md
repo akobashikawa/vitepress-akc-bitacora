@@ -2,4 +2,4 @@
 
 - Programación y más.
 
-<TagList />
+<TagsList />

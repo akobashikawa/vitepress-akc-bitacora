@@ -4,7 +4,7 @@ tags: ["git"]
 
 # 20240412: Git overwrite repository
 
-<TagLinks />
+<TagsLinks />
 
 - Se desea que https://github.com/userx/A (default rama main) sobrescriba a https://github.com/userx/B (default rama master)
 

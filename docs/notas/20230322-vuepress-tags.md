@@ -4,7 +4,7 @@ tags: ["vuepress"]
 
 # 20230322: Tags en Vuepress
 
-<TagLinks />
+<TagsLinks />
 
 - El frontmatter se coloca al inicio del archivo entre guiones triples (`---`).
 - Se puede indicar una lista de tags
@@ -15,9 +15,9 @@ tags: ["javascript", "vue", "vuepress"]
 ---
 ```
 
-- Se puede definir el componente TagLinks para mostrar la lista de tags de la página
+- Se puede definir el componente TagsLinks para mostrar la lista de tags de la página
 
-`src\.vuepress\components\TagLinks.vue`
+`src\.vuepress\components\TagsLinks.vue`
 ```vue
 <template lang="html">
     <!-- https://code.roygreenfeld.com/cookbook/adding-tags-to-vuepress.html -->

@@ -3,7 +3,7 @@ tags: ["nestjs", "howto"]
 ---
 # 20230709: Primeros pasos con NestJS
 
-<TagLinks />
+<TagsLinks />
 
 - NestJS es un framework para NodeJS basado en ExpressJS.
 

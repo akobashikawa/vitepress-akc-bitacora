@@ -4,7 +4,7 @@ tags: ["javascript", "angular", "patterns"]
 
 # 20230226: Compartir data entre componentes Angular
 
-<TagLinks />
+<TagsLinks />
 
 - Se puede usar un data service para compartir data entre componentes no relacionados.
 - En mi caso, deseo compartir el url base de un backend (`backendBaseUrl`) entre distintos componentes.

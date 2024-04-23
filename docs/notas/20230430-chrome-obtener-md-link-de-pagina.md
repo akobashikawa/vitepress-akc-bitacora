@@ -4,7 +4,7 @@ tags: ["chrome", "howto"]
 
 # 20230430: Chrome: Cómo obtener el link de la página en formato markdown
 
-<TagLinks />
+<TagsLinks />
 
 - Un link en formato markdown tiene la siguiente estructura: `[Título de la página](url_de_la_pagina)`
 - En obsidian, por ejemplo, para insertar el link de una página, el proceso normal consiste en:

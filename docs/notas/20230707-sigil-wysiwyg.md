@@ -3,7 +3,7 @@ tags: ["ebooks", "howto"]
 ---
 # 20230707: Sigil WYSIWYG
 
-<TagLinks />
+<TagsLinks />
 
 - Sigil es, básicamente, un editor de ebooks
 - En muchos de los tutoriales que se encuentran en la web, aparece la opción de edición en modo WYSIWYG, es decir, lo que vemos es lo que obtenemos.

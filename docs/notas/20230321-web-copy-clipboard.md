@@ -4,7 +4,7 @@ tags: ["javascript"]
 
 # 20230321: Copy to Cipboard para web
 
-<TagLinks />
+<TagsLinks />
 
 - Para enviar al clipboard un texto seleccionado en el navegador
 

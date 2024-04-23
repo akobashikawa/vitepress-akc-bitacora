@@ -4,7 +4,7 @@ tags: ["javascript"]
 
 # 20230321: Base64 en Javascript
 
-<TagLinks />
+<TagsLinks />
 
 - El comando `btoa` permite codificar una cadena de texto a base64.
 

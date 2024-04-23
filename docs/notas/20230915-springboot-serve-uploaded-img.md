@@ -4,7 +4,7 @@ tags: ["programming", "springboot", "howto"]
 
 # 20230915: Spring Boot: Cómo servir imágenes subidas
 
-<TagLinks />
+<TagsLinks />
 
 - En spring boot, es posible usar una carpeta de contenido estático `src/main/resources/static/` que se visualiza en http://localhost:8080, por ejemplo
 - Si se colocan una imagen `src/main/resources/static/img/img.jpg`, por ejemplo, entonces se visualiza en http://localhost:8080/img/img.jpg

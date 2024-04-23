@@ -5,7 +5,7 @@ tags:
 
 # 20240724: Linux: Listar grupos
 
-<TagLinks />
+<TagsLinks />
 
 ## Listar grupos
 

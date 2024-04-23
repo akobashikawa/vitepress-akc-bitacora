@@ -4,7 +4,7 @@ tags: ["english", "storytelling"]
 
 # 20230707: Citas en Inglés
 
-<TagLinks />
+<TagsLinks />
 
 ## En español
 

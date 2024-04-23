@@ -4,7 +4,7 @@ tags: ["c", "windows"]
 
 # 20230308: Primeros pasos con C
 
-<TagLinks />
+<TagsLinks />
 
 ## Primeros pasos con C en Windows
 
