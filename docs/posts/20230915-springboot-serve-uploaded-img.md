@@ -1,4 +1,5 @@
 ---
+title: "Cómo servir imágenes subidas en Spring Boot"
 tags: ["programming", "springboot", "howto"]
 date: 2023-09-15
 ---

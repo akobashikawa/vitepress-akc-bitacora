@@ -1,4 +1,5 @@
 ---
+title: "Agregando link contextual para abrir VSCode"
 tags: ["windows", "vscode"]
 date: 2024-01-22
 ---

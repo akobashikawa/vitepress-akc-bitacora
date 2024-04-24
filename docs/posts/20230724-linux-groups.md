@@ -1,6 +1,6 @@
 ---
-tags:
-  - linux
+title: "Listar grupos en Linux"
+tags: ["linux"]
 date: 2023-07-24
 ---
 

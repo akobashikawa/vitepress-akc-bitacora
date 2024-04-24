@@ -1,4 +1,5 @@
 ---
+title: "Cómo hacer zooming (magnify) en Windows 10"
 tags: ["windows", "howto"]
 date: 2023-05-11
 ---

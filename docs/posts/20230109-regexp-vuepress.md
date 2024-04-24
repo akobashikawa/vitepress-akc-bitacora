@@ -1,4 +1,5 @@
 ---
+title: "Javascript: regexp 101. Vuepress: wikilinks, dynamic sidebar."
 tags: ["javascript", "vuepress"]
 date: 2023-01-09
 ---

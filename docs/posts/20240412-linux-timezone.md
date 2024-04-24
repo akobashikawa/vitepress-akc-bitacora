@@ -1,4 +1,5 @@
 ---
+title: "Cambiando la timezone en Linux"
 tags: ["linux"]
 date: 2024-04-12
 ---

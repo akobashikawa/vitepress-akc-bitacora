@@ -1,5 +1,7 @@
 ---
+title: "Aprendiendo el pattern Strategy"
 tags: ["patterns", "java"]
+date: '2024-04-22'
 ---
 # 20240122: Strategy: Composición en vez de Herencia
 

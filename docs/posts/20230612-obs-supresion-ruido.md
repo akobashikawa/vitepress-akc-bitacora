@@ -1,4 +1,5 @@
 ---
+title: "Cómo suprimir ruido en OBS"
 tags: ["windows", "video", "sound", "obs", "howto"]
 ---
 

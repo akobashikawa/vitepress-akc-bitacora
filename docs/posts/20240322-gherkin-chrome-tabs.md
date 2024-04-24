@@ -1,4 +1,5 @@
 ---
+title: "Gherkin para BDD. Guardando tabs en Chrome/Brave."
 tags: ["bdd", "tools"]
 date: 2024-03-22
 ---

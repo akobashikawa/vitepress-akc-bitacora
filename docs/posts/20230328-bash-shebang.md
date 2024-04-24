@@ -1,4 +1,5 @@
 ---
+title: "Shebang en Bash"
 tags: ["bash"]
 ---
 

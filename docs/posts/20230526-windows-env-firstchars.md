@@ -1,9 +1,10 @@
 ---
+title: "Cómo obtener los primeros n caracteres de una variable de entorno en Windows"
 tags: ["windows", "console", "tips", "howto"]
 date: 2023-05-26
 ---
 
-# 20230526: En Windows, ¿Cómo obtener los primeros n caracteres de una variable de entorno?
+# 20230526: Cómo obtener los primeros n caracteres de una variable de entorno en Windows
 
 <TagsLinks />
 

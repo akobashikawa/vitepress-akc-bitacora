@@ -1,8 +1,7 @@
 ---
+title: "Vuepress: Deploy en Netlify. Git: Merge de historias no relacionadas."
 tags: ["vuepress", "git", "devops"]
 date: 2022-11-23
----
-Vuepress: Deploy en Netlify. Git: Merge de historias no relacionadas
 ---
 
 # 20221123: Vuepress, Git

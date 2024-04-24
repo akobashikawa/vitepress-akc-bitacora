@@ -1,4 +1,5 @@
 ---
+title: "Usando Sigil con WYSIWYG"
 tags: ["ebooks", "howto"]
 date: 2023-07-07
 ---

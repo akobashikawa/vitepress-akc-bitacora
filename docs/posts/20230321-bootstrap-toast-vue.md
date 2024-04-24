@@ -1,4 +1,5 @@
 ---
+title: "Bootstrap Toast con Vue"
 tags: ["vue", "bootstrap"]
 date: 2023-03-21
 ---

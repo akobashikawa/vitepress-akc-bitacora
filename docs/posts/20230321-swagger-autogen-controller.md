@@ -1,4 +1,5 @@
 ---
+title: "Usando Swagger autogen con controllers en Express"
 tags: ["javascript", "express"]
 date: 2023-03-21
 ---

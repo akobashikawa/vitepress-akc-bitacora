@@ -1,4 +1,5 @@
 ---
+title: "Git Bash: stdout is not a tty"
 tags: ["git", "bash", "troubleshooting"]
 date: 2023-03-28
 ---

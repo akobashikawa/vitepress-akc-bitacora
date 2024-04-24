@@ -1,4 +1,5 @@
 ---
+title: "Where en Windows para ubicar un comando"
 tags: ["windows", "cmd"]
 date: 2023-03-21
 ---

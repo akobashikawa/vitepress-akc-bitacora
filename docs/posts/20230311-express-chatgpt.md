@@ -1,4 +1,5 @@
 ---
+title: "Implementado un cliente ChatGPT con Express y Vue"
 tags: ["express", "vue", "webapp"]
 date: 2023-03-11
 ---

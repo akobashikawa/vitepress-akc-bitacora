@@ -1,4 +1,5 @@
 ---
+title: "Usando Visual Studio Code Portable"
 tags: ["vscode", "windows"]
 date: 2024-01-27
 ---

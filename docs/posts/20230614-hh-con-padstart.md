@@ -1,4 +1,5 @@
 ---
+title: "Cómo mostrar una hora con dos dígitos en javascript"
 tags: ["javascript", "howto"]
 date: 2023-06-14
 ---

@@ -1,8 +1,9 @@
 ---
+title: "Iniciación a Arduino UNO parpadeando un LED"
 tags: ["arduino"]
 date: 2023-11-06
 ---
-# 20231106: Iniciación a Arduino UNO parpadeando un led
+# 20231106: Iniciación a Arduino UNO parpadeando un LED
 
 <TagsLinks />
 

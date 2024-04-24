@@ -1,4 +1,5 @@
 ---
+title: "Pitch mode en XMind"
 tags: ["mindmap", "presentation", "tools"]
 date: 2023-02-26
 ---

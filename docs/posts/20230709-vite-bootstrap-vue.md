@@ -1,4 +1,5 @@
 ---
+title: "Usando Bootstrap con Vite y Vue"
 tags: ["vue", "vite", "howto"]
 date: 2023-07-09
 ---

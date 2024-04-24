@@ -1,4 +1,5 @@
 ---
+title: "Usando Real Favicon Generator"
 tags: ["vitepress"]
 date: 2024-04-12
 ---

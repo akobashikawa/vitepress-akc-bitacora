@@ -1,5 +1,7 @@
 ---
-tags: ["node"]
+title: "Usando require para cargar un JSON"
+tags: ["node", "javascript"]
+date: 2023-03-28
 ---
 
 # 20230328: Node require JSON

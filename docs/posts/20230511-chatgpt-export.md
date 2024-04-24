@@ -1,4 +1,5 @@
 ---
+title: "Cómo exportar los chats con ChatGPT"
 tags: ["chatgpt", "howto"]
 date: 2023-05-11
 ---

@@ -1,4 +1,5 @@
 ---
+title: "Windows Clipboard History"
 tags: ["windows", "tools"]
 date: 2023-02-26
 ---

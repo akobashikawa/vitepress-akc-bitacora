@@ -1,4 +1,5 @@
 ---
+title: "Tags en el frontmatter de Vuepress"
 tags: ["vuepress"]
 date: 2023-03-22
 ---

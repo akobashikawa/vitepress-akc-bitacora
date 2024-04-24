@@ -1,4 +1,5 @@
 ---
+title: "Convirtiendo callback a async en Node"
 tags: ["javascript", "async", "patterns"]
 date: 2023-03-15
 ---

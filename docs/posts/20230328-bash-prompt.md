@@ -1,4 +1,5 @@
 ---
+title: "Prompt en Bash"
 tags: ["bash"]
 ---
 

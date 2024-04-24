@@ -1,4 +1,5 @@
 ---
+title: "Windows Powertoys Hotkeys"
 tags: ["windows", "tools"]
 date: 2024-03-21
 ---
