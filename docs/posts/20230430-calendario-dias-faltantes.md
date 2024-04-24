@@ -1,5 +1,6 @@
 ---
 tags: ["historia", "programming", "calendar"]
+date: 2023-04-30
 ---
 
 # 20230430: Fechas faltantes por el ajuste de calendario

@@ -1,5 +1,6 @@
 ---
 tags: ["express", "vue", "webapp"]
+date: 2023-03-11
 ---
 
 # 20230311: Express ChatGPT

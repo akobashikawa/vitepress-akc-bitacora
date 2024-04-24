@@ -1,5 +1,6 @@
 ---
 tags: ["vue", "webapp"]
+date: 2023-03-14
 ---
 
 # 20230314: Vue ChatGPT

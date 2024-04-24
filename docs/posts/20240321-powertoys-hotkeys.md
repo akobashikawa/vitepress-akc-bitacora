@@ -1,5 +1,6 @@
 ---
 tags: ["windows", "tools"]
+date: 2024-03-21
 ---
 
 # 20240321: Windows Powertoys Hotkeys

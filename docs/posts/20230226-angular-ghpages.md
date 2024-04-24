@@ -1,5 +1,6 @@
 ---
 tags: ["javascript", "angular", "github"]
+date: 2023-02-26
 ---
 
 # 20230226: Deployar Angular en gh-pages

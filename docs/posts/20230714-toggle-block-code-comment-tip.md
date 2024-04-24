@@ -1,5 +1,6 @@
 ---
 tags: ["programming", "tips"]
+date: 2023-07-14
 ---
 
 # 20230714: Tip para comentar/descomentar fácilmente un bloque de código

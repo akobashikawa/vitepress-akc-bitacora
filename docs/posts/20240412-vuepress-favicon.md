@@ -1,5 +1,6 @@
 ---
 tags: ["vitepress"]
+date: 2024-04-12
 ---
 
 # 20240412: Vitepress favicon

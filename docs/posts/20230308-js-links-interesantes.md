@@ -1,5 +1,6 @@
 ---
 tags: ["javascript", "links"]
+date: 2023-03-08
 ---
 
 # 20230308: Javascript Links Interesantes

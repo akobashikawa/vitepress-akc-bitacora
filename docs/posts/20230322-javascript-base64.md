@@ -1,5 +1,6 @@
 ---
 tags: ["javascript"]
+date: 2023-03-22
 ---
 
 # 20230321: Base64 en Javascript

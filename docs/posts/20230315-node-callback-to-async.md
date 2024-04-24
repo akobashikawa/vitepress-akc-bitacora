@@ -1,5 +1,6 @@
 ---
 tags: ["javascript", "async", "patterns"]
+date: 2023-03-15
 ---
 
 # 20230315: Node callback to async

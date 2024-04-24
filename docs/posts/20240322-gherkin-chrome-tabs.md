@@ -1,5 +1,6 @@
 ---
 tags: ["bdd", "tools"]
+date: 2024-03-22
 ---
 
 # 20240322: Gherkin, Chrome Tabs

@@ -1,6 +1,7 @@
 ---
 tags:
   - linux
+date: 2023-07-24
 ---
 
 # 20240724: Linux: Listar grupos

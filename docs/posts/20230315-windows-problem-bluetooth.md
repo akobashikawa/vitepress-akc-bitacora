@@ -1,5 +1,6 @@
 ---
 tags: ["windows", "troubleshooting"]
+date: 2023-03-15
 ---
 
 # 20230315: Problema con Bluetooth en Windows 10

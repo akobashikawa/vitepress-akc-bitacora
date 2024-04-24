@@ -1,5 +1,6 @@
 ---
 tags: ["vscode", "windows"]
+date: 2024-01-27
 ---
 # 20240127: VSCode Portable
 

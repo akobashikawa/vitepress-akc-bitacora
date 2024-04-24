@@ -1,5 +1,6 @@
 ---
 tags: ["mindmap", "presentation", "tools"]
+date: 2023-02-26
 ---
 
 # 20230226: Pitch mode en XMind

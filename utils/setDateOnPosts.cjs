@@ -19,9 +19,18 @@ function updateFrontmatter(filePath, date) {
             return;
         }
 
-        const newContent = data.replace(/(---\n.*?\n)(---)/s, `$1date: ${date}\n$2`);
+        const re_hasDate = /(date:\s*)(.*)/;
 
-        console.log(newContent)
+        let newContent;
+
+        if (re_hasDate.test(data)) {
+            newContent = data.replace(re_hasDate, `$1${date}`);
+        } else {
+            const re_inFrontmatter = /(---\n.*?\n)(---)/s;
+            newContent = data.replace(re_inFrontmatter, `$1date: ${date}\n$2`);
+
+        }
+
         fs.writeFile(filePath, newContent, 'utf8', (err) => {
             if (err) {
                 console.error(`Error al escribir en el archivo ${filePath}: ${err}`);

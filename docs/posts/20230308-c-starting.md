@@ -1,5 +1,6 @@
 ---
 tags: ["c", "windows"]
+date: 2023-03-08
 ---
 
 # 20230308: Primeros pasos con C

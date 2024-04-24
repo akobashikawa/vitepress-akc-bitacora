@@ -1,5 +1,6 @@
 ---
 tags: ["windows", "cmd"]
+date: 2023-03-21
 ---
 
 # 20230321: Where in Windows

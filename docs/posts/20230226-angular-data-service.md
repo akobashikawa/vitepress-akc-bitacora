@@ -1,5 +1,6 @@
 ---
 tags: ["javascript", "angular", "patterns"]
+date: 2023-02-26
 ---
 
 # 20230226: Compartir data entre componentes Angular

@@ -1,5 +1,6 @@
 ---
 tags: ["javascript"]
+date: 2023-03-21
 ---
 
 # 20230321: Copy to Cipboard para web

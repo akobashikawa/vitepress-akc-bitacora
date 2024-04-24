@@ -1,5 +1,6 @@
 ---
 tags: ["ebooks", "howto"]
+date: 2023-07-07
 ---
 # 20230707: Sigil WYSIWYG
 

@@ -1,5 +1,6 @@
 ---
 tags: ["windows", "sqlserver", "troubleshooting"]
+date: 2023-03-08
 ---
 
 # 20230308: Cómo cambiar el password a sa

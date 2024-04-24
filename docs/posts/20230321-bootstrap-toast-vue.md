@@ -1,5 +1,6 @@
 ---
 tags: ["vue", "bootstrap"]
+date: 2023-03-21
 ---
 
 # 20230321: Bootstrap Toast con Vue

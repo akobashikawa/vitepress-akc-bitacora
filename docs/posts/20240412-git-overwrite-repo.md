@@ -1,5 +1,6 @@
 ---
 tags: ["git"]
+date: 2024-04-12
 ---
 
 # 20240412: Git overwrite repository

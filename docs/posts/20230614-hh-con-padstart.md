@@ -1,5 +1,6 @@
 ---
 tags: ["javascript", "howto"]
+date: 2023-06-14
 ---
 
 # 20230614: Cómo mostrar una hora con dos dígitos usando padStart

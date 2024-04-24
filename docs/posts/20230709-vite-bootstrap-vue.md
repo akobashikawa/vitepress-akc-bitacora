@@ -1,5 +1,6 @@
 ---
 tags: ["vue", "vite", "howto"]
+date: 2023-07-09
 ---
 # 20230709: Vite Bootstrap Vue
 

@@ -1,5 +1,6 @@
 ---
 tags: ["nestjs", "howto"]
+date: 2023-07-09
 ---
 # 20230709: Primeros pasos con NestJS
 

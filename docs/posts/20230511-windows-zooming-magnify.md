@@ -1,5 +1,6 @@
 ---
 tags: ["windows", "howto"]
+date: 2023-05-11
 ---
 
 # 20230511: Cómo hacer zooming (magnify) en Windows 10

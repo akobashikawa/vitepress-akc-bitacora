@@ -1,5 +1,6 @@
 ---
 tags: ["chrome", "howto"]
+date: 2023-04-30
 ---
 
 # 20230430: Chrome: Cómo obtener el link de la página en formato markdown

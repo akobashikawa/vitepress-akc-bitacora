@@ -1,5 +1,6 @@
 ---
 tags: ["github", "vuepress"]
+date: 2023-01-20
 ---
 
 # 20230120: Github Actions

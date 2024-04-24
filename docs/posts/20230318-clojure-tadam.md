@@ -1,5 +1,6 @@
 ---
 tags: ["clojure", "lisp"]
+date: 2023-03-18
 ---
 
 # 20230318: Clojure Tadam

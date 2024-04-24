@@ -1,5 +1,6 @@
 ---
 tags: ["express", "node", "nodemon"]
+date: 2023-10-05
 ---
 
 # 20231005: Nodemon REPL

@@ -1,5 +1,6 @@
 ---
 tags: ["windows", "vscode"]
+date: 2024-01-22
 ---
 # 20240122: Agregar link contextual Abrir VSCode aquí
 
