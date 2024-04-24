@@ -5,9 +5,9 @@
             <li v-for="post of tag.posts">
                 <a :href="post.url">{{ post.urlname }}</a>
                 &nbsp;
-                <span v-for="tag in post.tags" :key="tag"><a :href="`/tags.html#${tag}`" :class="`mytag tag-${tag}`">{{ tag }}</a></span>
+                <span v-for="tag in post.tags" :key="tag"><a :href="`/tags.html#${tag}`" :class="`mytag mytag-link tag-${tag}`">{{ tag }}</a></span>
                 <br>
-                <span>{{ post.title || '' }}</span>
+                <span class="title">{{ post.title || '' }}</span>
             </li>
         </ul>
     </div>

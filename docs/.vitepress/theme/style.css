@@ -139,7 +139,7 @@
 
 /* tags */
 .mytag {
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0);
   background-color: #eef;
 
   &.tag-angular { background-color: #faa; }
@@ -194,11 +194,12 @@
 }
 
 h2.mytag {
-  padding: 0.3em 0 0.2em 1em;
+  padding: 0.3em 0 0.4em 1em;
   border-radius: 1em;
 }
 
 a.mytag {
+  color: rgb(0,0,0) !important;
   font-size: 0.8em;
   margin: 0 0.2em;
   padding: 0.3em 0.6em 0.3em;
