@@ -3,9 +3,11 @@
         <h2 :id="tag.key" :class="`mytag tag-${tag.key}`">{{ tag.key }}</h2>
         <ul>
             <li v-for="post of tag.posts">
-                <a :href="post.url">{{ post.title || post.urlname }}</a>
+                <a :href="post.url">{{ post.urlname }}</a>
                 &nbsp;
                 <span v-for="tag in post.tags" :key="tag"><a :href="`/tags.html#${tag}`" :class="`mytag tag-${tag}`">{{ tag }}</a></span>
+                <br>
+                <span>{{ post.title || '' }}</span>
             </li>
         </ul>
     </div>
@@ -13,12 +15,13 @@
 
 <script setup lang="ts">
 import { data as posts } from './posts.data'
+
 let log_ = '...'
 const log = (s) => {
     log_ += "\n" + s
 }
 
-function getTags() {
+function getTags(posts) {
 
     let tags = {}
     for (let post of posts) {
@@ -32,7 +35,7 @@ function getTags() {
         }
     }
 
-    const tagsSorted = [];
+    const tagsSorted: any = [];
     const keysSorted = Object.keys(tags).sort();
     for (let key of keysSorted) {
         const item = {
