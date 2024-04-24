@@ -140,27 +140,48 @@
 /* tags */
 .mytag {
   color: rgba(0,0,0,0.8);
-  background-color: #ddd;
+  background-color: #eef;
 
   &.tag-angular { background-color: #faa; }
-  &.tag-async { background-color: #faa; }
+  &.tag-arduino { background-color: #abe; }
+  &.tag-async { background-color: #abe; }
   &.tag-bash { background-color: #aef; }
+  &.tag-batch { background-color: #aef; }
+  &.tag-bdd { background-color: #abe; }
   &.tag-bootstrap { background-color: #c898ff; }
   &.tag-c { background-color: rgb(143, 168, 252); }
+  &.tag-chrome { background-color: #abe; }
   &.tag-clojure { background-color: #ffa; }
   &.tag-cmd { background-color: #aef; }
+  &.tag-console { background-color: #aef; }
   &.tag-ddd { background-color: rgb(255, 218, 170); }
   &.tag-devops { background-color: rgb(170, 252, 255); }
-  &.tag-express { background-color: #5df8b0; }
+  &.tag-english { background-color: rgb(143, 168, 252); }
+  &.tag-express { background-color: #bcffa8; }
+  &.tag-gh-pages { background-color: #baf; }
   &.tag-git { background-color: #baf; }
   &.tag-github { background-color: #baf; }
-  &.tag-gh-pages { background-color: #baf; }
+  &.tag-howto { background-color: #ffa; }
+  &.tag-iis { background-color: rgb(143, 168, 252); }
+  &.tag-java { background-color: #faa; }
   &.tag-javascript { background-color: #bcffa8; }
+  &.tag-jenkins { background-color: #c898ff; }
   &.tag-links { background-color: #ccf; }
   &.tag-linux { background-color: rgb(245, 197, 133); }
   &.tag-lisp { background-color: #aff; }
+  &.tag-nestjs { background-color: #bcffa8; }
+  &.tag-networking { background-color: rgb(143, 168, 252); }
+  &.tag-node { background-color: #bcffa8; }
+  &.tag-nodemon { background-color: #bcffa8; }
   &.tag-patterns { background-color: #fea; }
+  &.tag-programming { background-color: rgb(143, 168, 252); }
+  &.tag-springboot { background-color: #bcffa8; }
+  &.tag-sql { background-color: rgb(143, 168, 252); }
+  &.tag-sqlserver { background-color: rgb(143, 168, 252); }
   &.tag-troubleshooting { background-color: #fbb; }
+  &.tag-vite { background-color: #5df8b0; }
+  &.tag-vitepress { background-color: #5df8b0; }
+  &.tag-vscode { background-color: #baf; }
   &.tag-vue { background-color: #5df8b0; }
   &.tag-vuepress { background-color: #5df8b0; }
   &.tag-webapp { background-color: #fbb; }
@@ -173,14 +194,15 @@
 }
 
 h2.mytag {
-  padding: 0.3em 0 0.2em 0.3em;
+  padding: 0.3em 0 0.2em 1em;
+  border-radius: 1em;
 }
 
 a.mytag {
   font-size: 0.8em;
   margin: 0 0.2em;
-  padding: 0.2em 0.3em 0.2em;
-  border-radius: 3px;
+  padding: 0.3em 0.6em 0.3em;
+  border-radius: 1em;
   font-weight: normal;
   opacity: 0.8;
   text-decoration: none !important;
