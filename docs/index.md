@@ -25,3 +25,4 @@ features:
     details: Abstraer es usar un conjunto de consideraciones más reducido
 ---
 
+<TagsList />
