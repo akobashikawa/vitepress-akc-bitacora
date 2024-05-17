@@ -1,9 +1,7 @@
-import { defineConfig, createContentLoader } from 'vitepress';
-
-import fs from "fs";
-import path from "path";
+// import { defineConfig, createContentLoader } from 'vitepress';
 
 import { withMermaid } from "vitepress-plugin-mermaid";
+import { getSideBar } from "./utils";
 
 const AKCStudioLogo = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>54.Code</title><g id="_54.Code" data-name="54.Code"><path d="M12,24A12,12,0,1,1,24,12,12.013,12.013,0,0,1,12,24ZM12,2A10,10,0,1,0,22,12,10.011,10.011,0,0,0,12,2Z"/><polygon points="9.293 16.707 4.586 12 9.293 7.293 10.707 8.707 7.414 12 10.707 15.293 9.293 16.707"/><polygon points="14.707 16.707 13.293 15.293 16.586 12 13.293 8.707 14.707 7.293 19.414 12 14.707 16.707"/></g></svg>`;
 
@@ -53,7 +51,7 @@ export default withMermaid({
     ],
 
     sidebar: [
-      getSideBar('posts', 'Posts', true, true),
+      getSideBar('posts', 'Posts', true, false),
     ],
 
     outline: {
@@ -93,30 +91,3 @@ export default withMermaid({
     class: "mermaid my-class", // set additional css classes for parent container 
   },
 });
-
-function getSideBar(folder, title, desc, collapsed) {
-  const extension = [".md"];
-
-  let files = fs
-    .readdirSync(path.join(`${__dirname}/../${folder}`))
-    .filter(
-      (item) =>
-        item.toLowerCase() != "index.md" &&
-        fs.statSync(path.join(`${__dirname}/../${folder}`, item)).isFile() &&
-        extension.includes(path.extname(item))
-    );
-
-  if (desc) {
-    files = files.reverse();
-  }
-
-  const items = files.map(item => {
-    const text = item.slice(0, -3);
-    const link = `/${folder}/${text}`;
-    return { text, link };
-  });
-
-  const link = `/${folder}/`;
-
-  return { text: title, link, collapsed, items};
-}
