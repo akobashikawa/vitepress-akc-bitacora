@@ -5,6 +5,8 @@ date: 2024-07-01T14:28:00-05:00
 ---
 # Sesiones con Sumatra PDF
 
+<TagsLinks />
+
 ## Qué es SumatraPDF
 
 - Sumatra PDF es un lector de documentos y libros electrónicos.

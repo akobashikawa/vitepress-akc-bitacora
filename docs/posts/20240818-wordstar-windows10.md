@@ -8,6 +8,8 @@ date: 2024-08-18T18:47:00-05:00
 
 # WordStar en Windows 10
 
+<TagsLinks />
+
 Recientemente, Robert J. Sawyer, el reconocido escritor de ciencia ficción, publicó que escribía sus novelas usando WordStar, el mejor procesador de textos que haya conocido.
 
 No es el único que opina igual, también se cuenta entre sus usuarios a Anne Rice, autora de "Entrevista con el Vampiro" y George R. R. Martin, autor de "Juego de Tronos".
