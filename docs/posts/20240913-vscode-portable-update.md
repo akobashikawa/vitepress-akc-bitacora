@@ -30,11 +30,15 @@ mklink /D data ..\vscode-portable-data
 ## ¿Cómo facilitar el update?
 
 - Requisitos y suspuestos
-    - La data se guarda en el symlink data que apunta a una carpeta externa vscode-portable-data
+    - La data se guarda en el symlink `data` que apunta a una carpeta externa `vscode-portable-data`
     - Tener el zip que vscode portable permite descargar
+        - Por ejemplo `VSCode-win32-x64-1.93.0.zip`
     - El contenido del zip se descargará en una carpeta con el mismo nombre
-    - Se eliminará el symlink vscode-portable existente para crear uno nuevo que apunte a la nueva carpeta
-    - Dentro del nuevo vscode-portable, se creará un nuevo symlink data que apunte al vscode-portable-data existente
+        - Por ejemplo `VSCode-win32-x64-1.93.0`
+    - Se eliminará el symlink `vscode-portable` existente para crear uno nuevo que apunte a la nueva carpeta
+        - `vscode-portable --> VSCode-win32-x64-1.93.0`
+    - Dentro del nuevo vscode-portable, se creará un nuevo symlink `data` que apunte al `vscode-portable-data` existente
+        - `vscode-portable\data --> vscode-portable-data`
 - Con ayuda de ChatGPT, creo `vscode-portable-update-using-zip.bat`
 
 ```sh
