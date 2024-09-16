@@ -1,7 +1,7 @@
 ---
 title: "Actualizando Visual Studio Code Portable"
 tags: ["vscode", "windows"]
-date: 2024-09-13
+date: 2024-09-13T17:00:00-05:00
 ---
 # 20240913: Actualizando VSCode Portable
 
