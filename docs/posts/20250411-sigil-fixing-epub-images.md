@@ -16,7 +16,7 @@ date: 2025-04-11T18:57:00-05:00
 ## La herramienta
 - Encuentro que puedo editar el epub con ayuda de Sigil.
 
-## La Solución
+## La solución
 - Cuando reviso las etiquetas img de las imágenes, veo que tienen indicado un número como ancho fijo.
 - Dado que los epub se han hecho para adaptarse a los dispositivos, no debería ser necesario especificar un ancho fijo.
     - Me parece que funcionaría mejor indicar un ancho relativo, del 100% del ancho de la pantalla.
