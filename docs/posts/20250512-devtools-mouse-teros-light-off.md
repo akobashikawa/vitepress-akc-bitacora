@@ -4,7 +4,7 @@ tags: ["devtools", "mouse", "led"]
 date: 2025-05-12T13:48:00-05:00
 ---
 
-# Devtools: Apagando LED de mouse teros
+# Devtools: Apagando LED de mouse Teros
 
 <TagsLinks />
 
